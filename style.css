@@ -1,0 +1,1169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    font-family: Metropolis;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn__color {
+    color: #000;
+    background-color: transparent;
+}
+
+.schoolboy {
+    position: relative;
+    left: 35px;
+    height: 500px;
+}
+
+.none {
+    border: none;
+}
+
+/* ********************************* NAVBAR START ********************************* */
+
+.logo {
+    height: 30px;
+    width: 114px;
+}
+
+.nav__link {
+    color: black;
+}
+
+.nav__link:hover {
+    color: blue;
+}
+
+/* ********************************* NAVBAR END ********************************* */
+
+.label__img {
+    margin-left: -25px;
+}
+
+.main__courses {
+    margin-top: 131px;
+}
+
+.courses__span {
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 13px 13px 13px 18px;
+    color: #FF6652;
+}
+
+.courses__title {
+    font-size: 65px;
+    font-weight: 700;
+    width: 607px;
+    margin-top: 15px;
+}
+
+.courses__text {
+    height: 90px;
+    width: 530px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ********************************* SECTION SEARCH START ********************************* */
+
+.search__div {
+    height: 60px;
+    width: 607px;
+    padding: 0 10px 0 20px;
+    border-radius: 10px;
+}
+
+.search__text {
+    margin-left: 67px;
+}
+
+.vl {
+    border: 1px solid #5D5A6F99;
+    height: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.search__color {
+    color: #5D5A6F99;
+}
+
+.search__btn {
+    height: 50px;
+    width: 143px;
+    border-radius: 10px;
+    background-color: #9C4DF4;
+    color: white;
+    width: 143px;
+    height: 50px;
+    position: relative;
+    left: 155px;
+    border: none;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.search__img {
+    z-index: 1;
+    position: relative;
+    left: 38px;
+}
+
+.search__btn:hover {
+    background-color: #9b4df4b3;
+}
+
+.search__btn:active {
+    background-color: #9C4DF4;
+}
+
+.backgrnd__img {
+    width: 380px;
+    background-image: url(./images/BG.jpg);
+    border-radius: 30px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+.img__four {
+    top: -80px;
+    right: 350px;
+}
+
+.img__presentation {
+    left: 150px;
+    top: 220px;
+}
+
+.img__three {
+    top: -30px;
+    left: 490px;
+}
+
+.img__one {
+    top: 330px;
+    left: 550px;
+}
+
+/* ********************************* SECTION SEARCH END ********************************* */
+
+/* ********************************* SECTION CLASSSES START ********************************* */
+
+.classes__title {
+    height: 110px;
+    width: 510px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.classes__text {
+    height: 90px;
+    width: 840px;
+    text-align: center;
+}
+
+.classes__btn {
+    height: 60px;
+    width: 162px;
+    border-radius: 10px;
+    background-color: #9C4DF4;
+    border: none;
+    color: #fff;
+}
+
+.classes__btn:hover {
+    background-color: #9b4df4b3;
+}
+
+.classes__btn:active {
+    background-color: #9C4DF4;
+}
+
+.classes__div {
+    margin-top: 60px;
+}
+
+.classes__div {
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+.classes__venessa {
+    height: 570px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.classes__portrait {
+    left: 30px;
+    height: 216px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 329px 0 0 25px;
+    z-index: 1;
+}
+
+.classes__call {
+    left: 500px;
+    top: 500px;
+}
+
+.classes__arrow {
+    top: 500px;
+    right: 60px;
+}
+
+.cards__div {
+    position: relative;
+    top: 40px;
+}
+
+.card__size {
+    height: 90px;
+    width: 290px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* ********************************* SECTION CLASSSES END ********************************* */
+
+
+/* ********************************* SECTION LESSONS START ********************************* */
+
+.lessons {
+    margin-top: 150px;
+}
+
+.lessons__text {
+    width: 700px;
+    margin: 20px 0 0 195px;
+}
+
+.lessons__div {
+    margin: 50px 0 0 270px;
+}
+
+.btn__lessons-firts {
+    height: 60px;
+    width: 152px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.btn__lessons-firts:hover {
+    border: 1px solid black;
+}
+
+.btn__lessons-firts:active {
+    background-color: #ede5e550;
+    border: none;
+}
+
+.btn__lessons-second {
+    height: 60px;
+    width: 152px;
+    color: #fff;
+    background-color: #FF6652;
+    border-radius: 10px;
+}
+
+.btn__lessons-second:hover {
+    background-color: #ff665288;
+}
+
+.btn__lessons-second:active {
+    background-color: #FF6652;
+}
+
+.btn__lessons-third {
+    height: 60px;
+    width: 152px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.btn__lessons-third:hover {
+    border: 1px solid black;
+}
+
+.btn__lessons-third:active {
+    background-color: #ede5e550;
+    border: none;
+}
+
+.standart__cards-div {
+    margin-top: 65px;
+}
+
+.standart__cards-size {
+    height: 329px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.standard__card-img {
+    margin: 30px 0 0 110px;
+}
+
+.card__text-size {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    height: 90px;
+    width: 200px;
+    color: #5D5A6F;
+}
+
+.card__one-btn {
+    height: 44px;
+    width: 162px;
+    border-radius: 5px;
+    color: #9C4DF4;
+    border: 1px solid #9C4DF4;
+    background-color: #fff;
+    margin: 0 0 0 50px;
+}
+
+.card__one-btn:hover {
+    background-color: #ede5e550;
+}
+
+.card__one-btn:active {
+    background-color: #9b4df458;
+}
+
+.btn__visit {
+    height: 60px;
+    width: 202px;
+    border-radius: 10px;
+    background: #9C4DF4;
+    color: #fff;
+    position: relative;
+    top: 60px;
+    left: 510px;
+}
+
+.btn__visit:hover {
+    background-color: #9b4df482;
+}
+
+.btn__visit:active {
+    background-color: #9C4DF4;
+}
+
+/* ********************************* SECTION LESSONS END ********************************* */
+
+
+
+
+/* ********************************* SECTION COLLAGE START ********************************* */
+
+.collage {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.collage__div {
+    height: 667px;
+    width: 1260px;
+    border-radius: 20px;
+    background-color: #EDE9F2;
+}
+
+.collage__pattern {
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.collage__img {
+    margin: -70px 0 0 -80px;
+}
+
+.collage__level-div {
+    padding: 113px 0 0 70px;
+}
+
+.collage__level {
+    text-align: center;
+    padding-top: 13px;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    background: #E4E2F4;
+    color: #9C4DF4;
+}
+
+.collage__tittle {
+    height: 165px;
+    width: 457px;
+    font-size: 45px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.collage__text {
+    height: 90px;
+    width: 440px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.collage__btn {
+    height: 60px;
+    width: 185px;
+    color: #fff;
+    background: #9C4DF4;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.collage__btn:hover {
+    background-color: #9b4df476;
+}
+
+.collage__btn:active {
+    background-color: #9C4DF4;
+}
+
+.html__icon {
+    left: 540px;
+    top: 100px;
+}
+
+.php__icon {
+    left: 1000px;
+    top: 200px;
+}
+
+.java__icon {
+    left: 1060px;
+    top: 10px;
+}
+
+/* ********************************* SECTION COLLAGE END ********************************* */
+
+
+
+/* ********************************* SECTION MENTOR START ********************************* */
+
+.mentor {
+    margin-top: 100px;
+}
+
+.mentor__div {
+    margin-top: 80px;
+}
+
+.mentor__title {
+    height: 165px;
+    width: 435px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.mentor__text {
+    height: 90px;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.mentor__btn {
+    height: 60px;
+    width: 204px;
+    border-radius: 10px;
+    background-color: #9C4DF4;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.mentor__btn:hover {
+    background-color: #9b4df477;
+}
+
+.mentor__btn:active {
+    background-color: #9C4DF4;
+}
+
+/* ********************************* SECTION MENTOR END ********************************* */
+
+
+
+/* ********************************* SECTION NEWS START ********************************* */
+
+.news__div {
+    height: 420px;
+    width: 1280px;
+    background-color: #0A033C;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.news--second__div {
+    color: #fff;
+}
+
+.news__tittle {
+    height: 110px;
+    width: 576px;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.news__text {
+    height: 30px;
+    width: 493px;
+    margin: 20px 0 0 40px;
+}
+
+.news--input__div {
+    margin-top: 40px;
+}
+
+.news__input {
+    height: 60px;
+    width: 367px;
+    color: #fff;
+    background-color: #FFFFFF33;
+    padding: 15px 0 15px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.news__btn {
+    height: 60px;
+    width: 142px;
+    color: #fff;
+    background-color: #9C4DF4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.news__btn:hover {
+    background-color: #9b4df4b7;
+}
+
+.news__btn:active {
+    background-color: #9C4DF4;
+}
+
+.student__img {
+    top: 61px;
+    left: 50px;
+}
+
+.comp__img {
+    top: 166px;
+    left: 177px;
+}
+
+.child__img {
+    top: 295px;
+    left: 80px;
+}
+
+.man__img {
+    top: 61px;
+    right: 50px;
+}
+
+.secondman__img {
+    top: 166px;
+    right: 177px;
+}
+
+.secondchild__img {
+    top: 295px;
+    right: 80px;
+}
+
+/* ********************************* SECTION NEWS END ********************************* */
+
+
+/* ********************************* SECTION FOOTER START ********************************* */
+
+footer {
+    margin-top: 80px;
+    margin-bottom: 63px;
+}
+
+.facebook__logo {
+    margin-top: 25px;
+}
+
+.insta__logo {
+    margin: 25px 0 0 15px;
+}
+
+.twitter__logo {
+    margin: 25px 0 0 15px;
+}
+
+.linkedin__logo {
+    margin: 25px 0 0 15px;
+}
+
+.footer--link__color {
+    color: #5D5A6F;
+}
+
+.footer__courses {
+    margin-left: 30px;
+}
+
+.footer__community {
+    padding-left: 90px;
+}
+
+.footer__links {
+    margin-left: 100px;
+}
+
+.footer__more {
+    margin-left: 30px;
+}
+
+.footer--courses__ul {
+    margin-left: 30px;
+}
+
+.footer__li {
+    margin-top: 17px;
+}
+
+.footer__li:hover {
+    color: rgb(178, 172, 172);
+}
+
+/* ********************************* SECTION FOOTER END ********************************* */
+
+
+
+/* ********************************* SHOP PAGE START (SECTION BOOK__SHOP) ********************************* */
+
+.book__shop--div {
+    background-image: url(./images/shopbg.jpg);
+    width: 1280px;
+    height: 270px;
+    margin: 38px auto;
+    padding: 20px 30px;
+}
+
+.shop__color {
+    color: #9C4DF4;
+}
+
+.vr {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.book__shop--tittle {
+    width: 278px;
+    color: #0A033C;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+
+
+/* ********************************* SHOP PAGE END (SECTION BOOK__SHOP) ********************************* */
+
+
+
+
+/* ********************************* SECTION BOOKS START ********************************* */
+
+.books .container .row {
+    gap: 110px;
+}
+
+.popular__tittle {
+    color: #0A033C;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.books__card {
+    width: 400px;
+    height: 140px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.popular__text {
+    font-size: 18px;
+    width: 228px;
+    height: 40px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.popular__price {
+    color: #FF6652;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.more {
+    color: #9C4DF4;
+    font-size: 20px;
+    font-family: Inter;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.more:hover {
+    color: blue;
+}
+
+
+.books__btn {
+    width: 131px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #FF6652;
+}
+
+.books__btn--kind {
+    width: 152px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.books__btn--high {
+    width: 119px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.books__hover:hover {
+    position: relative;
+    top: -3px;
+}
+
+.sort__input {
+    color: rgba(93, 90, 111, 0.60);
+    width: 555px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.sort__img--btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #9C4DF4;
+    position: relative;
+    right: 60px;
+}
+
+.sort__img--btn:hover {
+    background-color: #9b4df491;
+}
+
+.sort__img--btn:active {
+    background-color: #9C4DF4;
+}
+
+.latest__div {
+    width: 270px;
+    height: 60px;
+    position: relative;
+    right: 15px;
+    border-radius: 10px;
+}
+
+.latest__text {
+    color: rgba(93, 90, 111, 0.60);
+    margin: 0;
+}
+
+.latest__select {
+    width: 70%;
+}
+
+.adventure__div {
+    width: 100%;
+}
+
+.adventure__card {
+    margin-right: 15px;
+}
+
+.adventure__img--span {
+    width: 270px;
+    height: 280px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.adventure__tittle {
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+    font-weight: 600;
+}
+
+.adventure__price {
+    color: #FF6652;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.adventure__icon {
+    position: relative;
+    left: 125px;
+}
+
+.page__div {
+    margin-top: 60px;
+}
+
+.leftarrow__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    background-color: #F2E5FF;
+}
+
+.page__text {
+    margin: 0 0 0 20px;
+}
+
+.span__five {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.leftarrow__img:hover {
+    background-color: #d0aaf5;
+}
+
+.leftarrow__img:active {
+    background-color: #F2E5FF;
+}
+
+.five__text {
+    color: #3E4756;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rightarrow__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    background-color: #9C4DF4;
+    margin-left: 20px;
+}
+
+.rightarrow__img:hover {
+    background-color: #9b4df483;
+}
+
+.rightarrow__img:active {
+    background-color: #9C4DF4;
+}
+
+/* ********************************* SECTION BOOKS END ********************************* */
+
+
+
+/* ********************************* SECTION SIGNUP START ********************************* */
+
+.opocity {
+    opacity: 0.6;
+}
+
+.signup__body {
+    overflow: hidden;
+}
+
+.signup {
+    width: 1300px;
+    height: 650px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 1;
+    position: relative;
+    bottom: 625px;
+    background: #fff;
+    padding: 40px 20px 40px 250px;
+}
+
+.signup__tittle {
+    width: 355px;
+    height: 155px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.ellipsa__div {
+    width: 10%;
+    margin: 0 0 0 140px
+}
+
+.sign__vr {
+    width: 1px;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(10, 3, 60, 0.00) 0%, #0A033C 51.56%, rgba(10, 3, 60, 0.00) 100%);
+}
+
+.google {
+    padding-left: 50px;
+}
+
+.email__text {
+    color: #5D5A6F;
+}
+
+.google__img {
+    position: relative;
+    left: 45px;
+}
+
+.google__div {
+    position: relative;
+    right: 40px;
+}
+
+.google__input {
+    width: 340px;
+    height: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    border: 1px solid #DEDDE4;
+}
+
+.email__vr {
+    width: 20px;
+    height: 1px;
+    background: #5D5A6F;
+    margin: 20px 10px;
+}
+
+.form__label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #DEDDE4;
+    padding: 15px 15px 15px 40px;
+}
+
+.form__img {
+    position: relative;
+    right: 360px;
+}
+
+.form__img--password {
+    position: relative;
+    right: 357px;
+    bottom: 2px;
+}
+
+.form__img--eye {
+    position: relative;
+    right: 50px;
+}
+
+.checkbox__div {
+    width: 60%;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.checkbox__agreed {
+    color: #5D5A6F;
+}
+
+.checkbox__terms {
+    color: #0e0551;
+    font-weight: 600;
+}
+
+.signup__btn {
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    background: #9C4DF4;
+}
+
+.signup__btn:hover {
+    background: #9b4df4a2;
+}
+
+.signup__btn:active {
+    background: #9C4DF4;
+}
+
+.account__div {
+    margin: 25px 0 0 80px;
+}
+
+.account__text {
+    color: #5D5A6F;
+}
+
+.account__link {
+    color: #9C4DF4;
+}
+
+/* ********************************* SECTION SIGNUP END ********************************* */
+
+
+
+/* ********************************* SECTION SIGNIN START ********************************* */
+
+.signin__body {
+    overflow: hidden;
+}
+
+.signin {
+    width: 1100px;
+    height: 650px;
+    position: relative;
+    bottom: 635px;
+    left: 100px;
+    z-index: 1;
+    border-radius: 10px;
+    background: #fff;
+    padding: 60px 20px 20px 60px;
+}
+
+.signin__title {
+    margin-top: 15px;
+    color: #0A033C;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.google__img--signin {
+    position: relative;
+    left: 50px;
+    bottom: 1px;
+}
+
+.email__div {
+    color: #5D5A6F;
+    position: relative;
+    right: 70px;
+}
+
+.signin__input {
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #DEDDE4;
+    padding-left: 40px;
+}
+
+.signin__email--img {
+    position: relative;
+    right: 359px;
+}
+
+.signin__password--img {
+    position: relative;
+    right: 377px;
+    top: 104px;
+}
+
+.signin__img--eye {
+    position: relative;
+    right: 40px;
+}
+
+.signin__input--text {
+    color: #0A033C;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.btn__signin {
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    background: #9C4DF4;
+}
+
+.btn__signin:hover {
+    background: #9b4df4a9;
+}
+
+.btn__signin:active {
+    background: #9C4DF4;
+}
+
+.signed__div {
+    margin-top: 20px;
+
+}
+
+.signed {
+    color: #5D5A6F;
+}
+
+.signed__link {
+    color: #5D5A6F;
+    margin-left: 100px;
+}
+
+.signed__link:hover {
+    color: #0000ff;
+}
+
+/* ********************************* SECTION SIGNIN END ********************************* */
